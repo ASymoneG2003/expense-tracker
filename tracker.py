@@ -14,7 +14,7 @@ def adding_expenses(amount, category, date):
 
 while True:
     print("A = ADD EXPENSE Q = QUIT")
-    pick = input("pick: ")
+    pick = input("pick: ").upper()
 
     if pick == "A":
         amount = float(input("Enter amount: "))
@@ -26,4 +26,4 @@ while True:
     elif pick == "Q":
         break
 
-#will be adding onto this project progress nov 13th 9:03pm 
+#will be adding onto this project progress nov 13th 9:03pm
